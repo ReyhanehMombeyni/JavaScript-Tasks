@@ -101,3 +101,31 @@ function arrayToObjects(arr) {
 const stringArr = ["Hello", "Hiiii", "Js"];
 console.log(arrayToObjects(stringArr));
 
+
+const parentEL=document.createElement("div");
+parent.classList.add("q12")
+container.append(parent)
+const userCard = async () => {
+    let users = [];
+    const URL = "https://jsonplaceholder.typicode.com/users";
+    const response = await fetch(URL, {
+      method: "GET",
+    });
+    users = await response.json();
+
+    users.forEach(user => {
+        const card = document.createElement("div");
+        card.classList.add("cardUser");
+        parent.append(card);
+
+        const userName = document.createElement("p");
+        userName.textContent = user.name;
+
+        const userEmail = document.createElement("p");
+        userEmail.textContent = user.email;
+
+        card.append(userName, userEmail);
+    });
+  };
+userCard();
+

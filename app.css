@@ -48,3 +48,12 @@
     padding: 16px;
     margin-top: 10px;
 }
+
+
+.cardUser {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 10px;
+    background-color: #cfc1c1;
+}
