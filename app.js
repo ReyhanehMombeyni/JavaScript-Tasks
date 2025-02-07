@@ -22,3 +22,10 @@ const jokeRandom= async () => {
 }
 jokeRandom();
 
+
+const array=[12, 6, 84, 32, 9, 45];
+const sortFunction= (arr) => {
+    arr.sort((a, b) => (a-b));
+    console.log(arr)
+}
+sortFunction(array)
