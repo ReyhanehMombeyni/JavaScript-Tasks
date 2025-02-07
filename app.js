@@ -88,3 +88,16 @@ function createCard(title, content) {
 }
 createCard("Title1", "This is content1");
 createCard("Title2", "This is content2");
+
+
+function arrayToObjects(arr) {
+    return arr.map(str => {
+        return {
+            text: str,
+            length: str.length
+        };
+    });
+}
+const stringArr = ["Hello", "Hiiii", "Js"];
+console.log(arrayToObjects(stringArr));
+
