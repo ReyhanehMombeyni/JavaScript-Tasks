@@ -4,3 +4,10 @@
     justify-content: center;
     align-items: center;
 }
+
+#changeColorBtn {
+    background-color: rgb(228, 180, 217);
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+}

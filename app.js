@@ -29,3 +29,10 @@ const sortFunction= (arr) => {
     console.log(arr)
 }
 sortFunction(array)
+
+
+const changeColorBG= document.querySelector("#changeColorBtn");
+changeColorBG.addEventListener("click", () => {
+    document.body.style.backgroundColor ="rgb(228, 180, 217)";
+})
+
