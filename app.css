@@ -1,8 +1,8 @@
 .container {
     min-height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 #changeColorBtn {
@@ -10,4 +10,41 @@
     border: none;
     padding: 20px;
     border-radius: 20px;
+}
+
+#q7 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(191, 226, 215);
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#startTimerBtn {
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: aqua;
+
+}
+
+.q8 {
+    background-color: rgb(214, 241, 170);
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 10px;
 }
