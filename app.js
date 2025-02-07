@@ -129,3 +129,18 @@ const userCard = async () => {
   };
 userCard();
 
+
+function countElement(arr) {
+    const CounterElement = {};
+
+    for (const el of arr) {
+        if (CounterElement[el]) {
+            CounterElement[el]++;
+        } else {
+            CounterElement[el] = 1;
+        }
+    }
+    console.log(CounterElement)
+}
+countElement(["a", "a", "b", "c"]);
+
